@@ -1,17 +1,10 @@
 const help = (prefix) => {
-	return `> *Sticker Commands* <
-command : *${prefix}sticker* or *${prefix}stiker*
-desc : convert image/gif/video to sticker
-usage : reply image/gif/video, or send image/gif/video with caption\n
-command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
-desc : convert image to sticker while removing the background
-usage : reply image, or send image with caption\n
-command : *${prefix}toimg*
-desc : convert sticker to image
-usage : reply sticker\n
-command : *${prefix}tsticker* or *${prefix}tstiker*
-desc : convert text to sticker
-usage : *${prefix}tsticker text in here*\n
+	return `> *Figurinha Commands* <
+command : *${prefix}Figurinha* or *${prefix}Figurinha*
+desc : Use '' .figurinha junto com uma foto/video de ate 10 segundos ''
+command : *${prefix}FigurinhaT* or *${prefix}figurinhat*
+desc : Transforme um texto em uma figurinha
+usage : *${prefix}figurinhat [texto] here*\n
 > *Meme Commands* <
 command : *${prefix}meme*
 desc : random meme images [english]
@@ -80,4 +73,4 @@ usage : *${prefix}simih 1* to activate simi mode and *${prefix}simih 0* to deact
 note : This command can be used if you are a group admin\n`
 }
 
-exports.help = help
+exports.ajuda = ajuda
